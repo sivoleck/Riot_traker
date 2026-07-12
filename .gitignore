@@ -1,0 +1,5 @@
+.env
+puuid_cache.json
+matches/
+__pycache__/
+*.pyc
