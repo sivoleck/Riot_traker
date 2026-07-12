@@ -1,32 +1,17 @@
 # 📊 LoL Custom Match Tracker
 
-Recopilador de datos de partidas personalizadas de League of Legends usando la **Live Client Data API**. Genera un JSON estructurado compatible con la API de Riot para ser procesado por un bot de Discord.
+Recopilador de datos de partidas personalizadas de League of Legends usando la **Live Client Data API**. Genera un JSON estructurado para para luego ser procesado, por ejemplo por un bot de Discord.
 
 ## 🚀 Instalación
 
 ### 1. Requisitos previos
 - **Python 3.10+** instalado
 - **League of Legends** instalado
-- **Riot API Key** (gratuita) → [developer.riotgames.com](https://developer.riotgames.com/)
 
 ### 2. Instalar dependencias
 
 ```bash
 pip install -r requirements.txt
-```
-
-### 3. Configurar API Key
-
-Copia el archivo de ejemplo y añade tu API Key:
-
-```bash
-copy .env.example .env
-```
-
-Edita `.env` y pega tu API Key:
-```
-RIOT_API_KEY=RGAPI-tu-api-key-real
-RIOT_REGION=europe
 ```
 
 ## ▶️ Uso
@@ -80,6 +65,5 @@ Edita `config.py` para ajustar:
 
 ## ⚠️ Notas importantes
 
-- La **Riot API Key gratuita** caduca cada **24 horas**. Renuévala en el portal de Riot.
 - El script **no es baneable** — usa la API oficial de Riot expuesta localmente.
 - El certificado SSL es autofirmado, el script lo maneja automáticamente.
