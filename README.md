@@ -1,4 +1,4 @@
-# 📊 LoL Custom Match Tracker
+# 📊 Lol Scrim Stats Tracker
 
 Recopilador de datos de partidas personalizadas de League of Legends usando la **Live Client Data API**. Genera un JSON estructurado para para luego ser procesado, por ejemplo por un bot de Discord.
 
