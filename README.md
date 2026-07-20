@@ -54,7 +54,7 @@ Edita `config.py` para ajustar:
   match_id, game_mode, game_duration_seconds, game_version,
   teams: { blue: { win, objectives }, red: { win, objectives } },
   participants: [
-    { puuid, riotId, championName, role,
+    { riotId, championName, role,
       snapshots: { t5, t10, t15, t20, final },
       final_stats: { kills, deaths, assists, kda, kp_percent, ... }
     }
